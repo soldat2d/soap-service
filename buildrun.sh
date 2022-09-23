@@ -1,0 +1,1 @@
+./mvnw clean package && java -jar target/soap-service-0.0.1-SNAPSHOT.jar

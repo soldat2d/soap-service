@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ss="http://net.da.net.soapservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ss:deleteUserRequest>
+            <ss:login>Alpha</ss:login>
+        </ss:deleteUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

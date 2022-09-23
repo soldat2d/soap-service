@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ss="http://net.da.net.soapservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ss:getAllUsersRequest>
+        </ss:getAllUsersRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

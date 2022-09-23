@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ss="http://net.da.net.soapservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ss:addUserRequest>
+            <ss:user>
+                <ss:login>Vasya</ss:login>
+                <ss:name>Vasya</ss:name>
+                <ss:password>H1man</ss:password>
+                <ss:roles>
+                    <ss:name>Admin</ss:name>
+                </ss:roles>
+                <ss:roles>
+                    <ss:name>Analyst</ss:name>
+                </ss:roles>
+                <ss:roles>
+                    <ss:name>Analgin</ss:name>
+                </ss:roles>
+            </ss:user>
+        </ss:addUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

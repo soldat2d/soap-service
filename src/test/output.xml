@@ -1,0 +1,1 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getAllUsersResponse xmlns:ns2="http://net.da.net.soapservice"><ns2:user>Patrick</ns2:user><ns2:user>Luke</ns2:user><ns2:user>Vasiliy</ns2:user></ns2:getAllUsersResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
